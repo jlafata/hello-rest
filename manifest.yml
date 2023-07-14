@@ -1,0 +1,6 @@
+---
+applications:
+- name: hello-rest
+  memory: 1G
+  random-route: false
+  path: build/libs/hello-rest-1.0-SNAPSHOT.war
