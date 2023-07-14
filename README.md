@@ -1,6 +1,6 @@
 # hello-rest
 
-A jersey rest project which  exposes a rest get to say return hello.
+    A jersey rest project which  exposes a RESTFUL get to return a greeting
 
 this project has two branches.
 ```
