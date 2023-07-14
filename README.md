@@ -15,5 +15,5 @@ https://www.javatpoint.com/jax-rs-example-jersey
 This application References this sample for adding a servlet filter via the web.xml
 https://digitalocean.com/community/tutorials/java-servlet-filter-example-tutorial
 
-This application adds a working examples to add a response header 
+This application references this link to deliver a working example of X-Frame-Options in the response header 
 https://stackoverflow.com/questions/11025605/response-is-committing-and-dofilter-chain-is-broken
