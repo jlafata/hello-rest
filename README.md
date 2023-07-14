@@ -3,9 +3,10 @@
 A jersey rest project which  exposes a rest get to say return hello.
 
 this project has two branches.
-Main branch: does not set the X-Frame-Options field in the response header
+```
+main branch: does not set the X-Frame-Options field in the response header
 Secure branch: sets the X-Frame-Options field by adding a new servlet filter and referencing it in the WEB-INF/web.xml
-
+```
 
 # references:
 This application is was based on the application described in this link:
