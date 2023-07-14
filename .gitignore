@@ -1,4 +1,7 @@
 .idea
 build
-WEB-INF
+WEB-INF/classes
+WEB-INF/lib
+WEB-INF/faces-config.xml
+WEB-INF/web.xml
 .gradle
