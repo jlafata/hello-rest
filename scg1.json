@@ -1,1 +1,0 @@
-{"routes":[{"uri":"http://hello-rest.{Your Apps Domain}","predicates":["Path=/ext/hello","Method=GET,POST"],"filters":["StripPrefix=0","SetPath=/rest/hello","SetResponseHeader=X-Frame-Options, SAMEORIGIN"]}]}
