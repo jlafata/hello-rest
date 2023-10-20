@@ -2,13 +2,13 @@
 
     A jersey rest project which  exposes a RESTFUL get to return a greeting
 
-this project has two branches.
+this project has three branches.
 ```
 main branch: does not set the X-Frame-Options field in the response header
 Secure branch: sets the X-Frame-Options field by adding a new servlet filter and referencing it in the WEB-INF/web.xml
 ```
 
-# deployment instructions - main branch
+# deployment instructions - main branch - insecure
 ```
 git checkout main
 gradle build
@@ -17,7 +17,7 @@ open app in browser, header does not include X-Frame-Options (see following imag
 ```
 ![no-x-frame-options](images/http-header-without-x-frame-options.png)
 
-# deployment instructions - Secure branch
+# deployment instructions - Secure branch - secured by security Filter
 ```
 git checkout Secure
 gradle build
@@ -25,6 +25,15 @@ cf push
 open app in browser, header DOES include X-Frame-Options (see following image)
 ```
 ![no-x-frame-options](images/http-header-with-x-frame-options.png)
+
+
+# deployment instructions - Secure branch - secured by spring security
+```
+git checkout  spring-security
+gradle build
+cf push
+open app in browser, header DOES include X-Frame-Options (see following image)
+```
 
 
 # references:
