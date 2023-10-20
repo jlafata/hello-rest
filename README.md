@@ -57,7 +57,7 @@ cf update-service my-gateway -c scg1.json
 
 get url of gateway in the browswer and open the url with the specified prefix in the browser
 
-http://<scg-url>/rest/hello
+http://<scg-url>/ext/hello
 
 
 # references:
